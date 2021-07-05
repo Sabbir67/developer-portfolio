@@ -6,12 +6,15 @@ body {
 h1 {
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 
 .sabbir-text-color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 70px;
 }
@@ -40,4 +43,32 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    width: 42%;
+    padding-left: 5%;
+    margin-left: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+   
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+#web-dev-experience{
+    border-left: 7px solid;
+    border-image-source: linear-gradient(blue,yellow);
+    border-image-slice: 1; 
+}
+
+#web-dev-experience-2{
+    border-left: 7px solid;
+    border-image-source: linear-gradient(red,orange);
+    border-image-slice: 1; 
+}
+footer p{
+    text-align: center;
 }
